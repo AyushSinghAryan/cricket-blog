@@ -1,0 +1,281 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body {
+     background-color: rgb(251, 239, 217);
+ }
+
+ nav {
+     margin: 10px;
+     display: flex;
+     padding: 10px;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 20px;
+     background-color: wheat;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border: 2px solid beige;
+
+ }
+
+ .worldcupinfo {
+     display: flex;
+
+
+
+ }
+
+ .worldcupinfo a,
+ .myinfo a {
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .worldcupinfo a :hover,
+ .myinfo a :hover {
+     text-decoration: underline;
+     color: rgb(33, 20, 4);
+ }
+
+ .worldcupinfo a li,
+ .myinfo a li {
+     list-style-type: none;
+     margin: 10px;
+     font-size: 18px;
+     color: rgb(99, 65, 20);
+ }
+
+
+
+
+ .myinfo {
+     display: flex;
+
+ }
+
+ h1 {
+     font-size: 30px;
+     text-align: center;
+     color: rgb(99, 65, 20);
+     margin: 5px;
+ }
+
+ h2 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     color: rgb(99, 65, 20);
+     margin: 5px;
+ }
+
+ #intro {
+     /* border: 5px solid black; */
+     margin: 10px;
+     padding: 20px;
+     background-color: wheat;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border-radius: 10px;
+     text-align: center;
+     border: 2px solid beige;
+
+
+
+ }
+
+ #cricketexperience {
+     display: flex;
+     flex-wrap: wrap;
+
+
+
+
+ }
+
+ .cricketsections {
+     background-color: wheat;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border: 2px solid beige;
+     border-radius: 20px;
+     flex: 1;
+     margin: 10px;
+     padding: 10px;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     text-align: justify;
+
+
+ }
+
+ .cricketsections img,
+ .cricketsections video {
+     border-radius: 10px;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border: 2px solid beige;
+     margin: 10px;
+
+
+ }
+
+
+ p {
+     text-align: justify;
+ }
+
+ #AboutMe {
+     background-color: wheat;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border: 2px solid beige;
+     border-radius: 20px;
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+ }
+
+ #AboutMe p {
+     text-align: justify;
+ }
+
+ #ContactMe {
+     background-color: wheat;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border: 2px solid beige;
+     border-radius: 20px;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .formContent {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+ .inputtext {
+
+     position: relative;
+     cursor: text;
+     font-size: 14px;
+     line-height: 20px;
+     padding: 0 16px;
+     height: 48px;
+     background-color: #fff;
+     border: 1px solid #d6d6e7;
+     border-radius: 3px;
+     color: rgb(35, 38, 59);
+     box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);
+     overflow: hidden;
+     transition: all 100ms ease-in-out;
+
+     :focus {
+         border-color: beige;
+         box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+     }
+
+ }
+
+ textarea {
+     position: relative;
+     cursor: text;
+     font-size: 14px;
+     line-height: 20px;
+     padding: 0 16px;
+     height: 84px;
+     background-color: #fff;
+     border: 1px solid #d6d6e7;
+     border-radius: 3px;
+     color: rgb(35, 38, 59);
+     box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);
+     overflow: hidden;
+     transition: all 100ms ease-in-out;
+
+     :focus {
+         border-color: beige;
+         box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+     }
+
+ }
+
+ .custombtn {
+
+
+     width: 25%;
+     align-self: center;
+     outline: 0;
+     cursor: pointer;
+     border: none;
+     padding: 0 56px;
+     height: 45px;
+     line-height: 45px;
+     border-radius: 7px;
+     font-weight: 400;
+     font-size: 16px;
+     background: #fff;
+     color: #696969;
+     box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+     border: 1pxc solid beige;
+
+     :hover {
+         background-color: beige;
+         box-shadow: 0 6px 20px rgb(93 93 93 / 23%);
+     }
+
+
+ }
+
+ .custombtn:hover {
+     background-color: burlywood;
+     color: white;
+
+ }
+
+ .contactLinks {
+     margin-top: 30px;
+     margin-bottom: 10px;
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+ }
+
+ footer {
+     background-color: wheat;
+     box-shadow: 3px 5px rgb(161, 161, 130);
+     border: 2px solid beige;
+     border-radius: 10px;
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+ }
+
+ @media (max-width:768px) {
+     nav {
+         flex-direction: column;
+     }
+
+     .worldcupinfo {
+         flex-direction: column;
+     }
+
+     .myinfo {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .custombtn {
+         display: flex;
+         align-self: center;
+         text-align: center;
+         justify-content: center;
+         width: 40%;
+     }
+
+
+ }
